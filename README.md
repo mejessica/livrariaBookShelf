@@ -1,5 +1,5 @@
-# livrariaBookook
-## Decidi refatorar um projeto que já havia feito anteriormente
+# Livraria Bookook
+Decidi refatorar com o conhecimento que adquiri até aqui um projeto que já havia feito anteriormente
 
 ## Linguagens Usadas
 - HTML 
