@@ -1,4 +1,5 @@
 # Livraria Bookook
+ :construction: Projeto em construção :construction:
 Decidi refatorar com o conhecimento que adquiri até aqui um projeto que já havia feito anteriormente
 
 ## Linguagens Usadas
