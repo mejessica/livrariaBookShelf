@@ -79,7 +79,7 @@ body {
     align-self: flex-end;
 }
 
- nav label{
+nav label {
     display: flex;
     flex-direction: column;
 }
@@ -93,6 +93,7 @@ body {
     top: 29px;
     left: 15px;
     transition: 0.5s ease-in-out;
+
 
 }
 
@@ -185,42 +186,6 @@ input:checked~label .hamburguer:after {
 
 }
 
-.cta svg {
-    transform: translateX(-8px);
-    transition: all 0.3s ease;
-}
-
-.cta:hover svg {
-    transform: translateX(0);
-}
-
-.cta:active svg {
-    transform: scale(0.9);
-}
-
-.hover-underline-animation {
-    position: relative;
-    color: black;
-    padding-bottom: 20px;
-}
-
-.hover-underline-animation:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000000;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-}
-
-.cta:hover .hover-underline-animation:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
 
 .livros {
     margin-top: 45rem;
@@ -302,7 +267,8 @@ input:checked~label .hamburguer:after {
     color: #45496A;
 }
 
-@media(max-width:900px) {
+@media(max-width:480px) {
+
     body {
         background-size: cover;
         width: 100vw;
@@ -324,39 +290,41 @@ input:checked~label .hamburguer:after {
         text-align: left;
         margin-top: 10rem;
     }
-    
-    .hamburguer {
-        display: block;
-        margin-top: 10px;
-    }
-   
-    .menu-form nav ul li {
-        display: none;
-        width: 10rem;
-    }
 
-    .menu-form .menu {
+    .menu-form {
         display: flex;
-        flex-direction: column;
-        font-size: 20px;
-        margin-top: 5px;
+        justify-content: left;
     }
 
-    nav input:checked~ul li {
-        display: block;
-    }
 
     .menu-form nav {
         position: absolute;
         top: 15px;
         right: 0;
         z-index: 1;
-        width: 15rem;
+        width: 18rem;
     }
 
-    .menu-form nav ul{
+    .menu-form nav ul li {
+        display: none;
+        width: 10rem;
+    }
+
+    .menu-form ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
         background-color: #F1B2B2;
         border-radius: 20px;
+        float: right;
+
+    }
+
+    .menu-form .menu {
+        margin: 50px 5px 5px 5px;
+        position: relative;
+        left: -20px;
+
     }
 
     .menu-form nav ul a {
@@ -365,18 +333,38 @@ input:checked~label .hamburguer:after {
         display: block;
     }
 
+    nav input:checked~ul li {
+        display: block;
+
+    }
+
+    .hamburguer {
+        display: block;
+        margin-top: 10px;
+        left: 130px;
+    }
+
+
     .menu-form .form {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-right: 250px;
+        margin-right: 19rem;
         height: 50%;
-        width: 80%;
+        width: 110%;
         margin-top: 50rem;
+        border-radius: 0;
+        padding: 80px;
+    }
+
+    button span {
+        text-align: center;
+        margin-right: 80px;
     }
 
     .form .junte-se {
         padding: 10px;
+        margin-top: 60px;
         font-size: 20px;
     }
 
@@ -384,4 +372,33 @@ input:checked~label .hamburguer:after {
         font-size: 5px;
     }
 
+    .livros {
+        margin-top: 35rem;
+    }
+
+    .livros .titulo {
+        font-size: 30px;
+        width: 100%;
+        margin: 15rem 1rem;
+    }
+
+    #titulo2 {
+        margin: 15rem 1rem;
+    }
+
+    .livros .imagem-livraria {
+        display: none;
+    }
+
+    .livros .livros-nacionais {
+        margin-bottom: 20rem;
+    }
+
+    .footer{
+        padding: 3.5rem;
+    }
+    .footer .footer-titulo {
+        font-size: 2rem;
+        text-align: center;
+    }
 }
