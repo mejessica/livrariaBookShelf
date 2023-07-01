@@ -351,7 +351,7 @@ input:checked~label .hamburguer:after {
         justify-content: center;
         margin-right: 19rem;
         height: 50%;
-        width: 110%;
+        width: 120%;
         margin-top: 50rem;
         border-radius: 0;
         padding: 80px;
@@ -401,4 +401,5 @@ input:checked~label .hamburguer:after {
         font-size: 2rem;
         text-align: center;
     }
+    
 }
