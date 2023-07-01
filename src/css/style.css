@@ -270,6 +270,7 @@ input:checked~label .hamburguer:after {
 @media(max-width:480px) {
 
     body {
+        overflow-x: hidden;
         background-size: cover;
         width: 100vw;
         height: 100vh;
@@ -354,12 +355,12 @@ input:checked~label .hamburguer:after {
         width: 120%;
         margin-top: 50rem;
         border-radius: 0;
-        padding: 80px;
+        padding: 10rem;
     }
 
     button span {
         text-align: center;
-        margin-right: 80px;
+        margin-right: 110px;
     }
 
     .form .junte-se {
@@ -392,8 +393,15 @@ input:checked~label .hamburguer:after {
 
     .livros .livros-nacionais {
         margin-bottom: 20rem;
+        width: 20px;
+        
     }
 
+    .livros img{
+        height: 230px;
+        width: 230px;
+    }
+    
     .footer{
         padding: 3.5rem;
     }
