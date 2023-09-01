@@ -225,6 +225,8 @@ input:checked~label .hamburguer:after {
 .livros .livros-nacionais {
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: center;
 }
 
 .livros-da-semana img {
@@ -271,7 +273,7 @@ input:checked~label .hamburguer:after {
 
     body {
         overflow-x: hidden;
-        background-size: cover;
+        background-size:contain;
         width: 100vw;
         height: 100vh;
     }
@@ -284,12 +286,12 @@ input:checked~label .hamburguer:after {
 
     .logo-name .name {
         display: flex;
-        margin-left: 9rem;
-        font-size: 40px;
+        margin-left: 2rem;
+        font-size: 20px;
         color: #fff;
-        width: 3rem;
+        width: 30rem;
         text-align: left;
-        margin-top: 10rem;
+        margin-top: 5rem;
     }
 
     .menu-form {
@@ -353,7 +355,7 @@ input:checked~label .hamburguer:after {
         margin-right: 19rem;
         height: 50%;
         width: 120%;
-        margin-top: 50rem;
+        margin-top: 30rem;
         border-radius: 0;
         padding: 10rem;
     }
@@ -374,17 +376,17 @@ input:checked~label .hamburguer:after {
     }
 
     .livros {
-        margin-top: 35rem;
+        margin-top: 15rem;
     }
 
     .livros .titulo {
         font-size: 30px;
         width: 100%;
-        margin: 15rem 1rem;
+        margin: 0 1rem 9rem 1rem;
     }
 
     #titulo2 {
-        margin: 15rem 1rem;
+        margin: 9rem 1rem;
     }
 
     .livros .imagem-livraria {
@@ -393,13 +395,22 @@ input:checked~label .hamburguer:after {
 
     .livros .livros-nacionais {
         margin-bottom: 20rem;
-        width: 20px;
-        
+        padding-left: 20rem;
+        padding-right: 5rem;
+        overflow:auto;
+        margin-bottom: 15rem;
     }
-
+    .livros .livros-da-semana{
+        padding-left: 38rem;
+        padding-right:5rem;
+        overflow:auto;
+        margin-bottom: 10rem;
+    }
+  
     .livros img{
-        height: 230px;
-        width: 230px;
+        height: 130px;
+        width: 100px;
+        margin-right: 15px;
     }
     
     .footer{
