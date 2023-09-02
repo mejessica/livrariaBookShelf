@@ -277,26 +277,31 @@ input:checked~label .hamburguer:after {
         width: 100vw;
         height: 100vh;
     }
+    .cabecalho header{
+     width: 100vw;
+    }
 
     .logo-name .logo {
         width: 5rem;
         height: 5rem;
-        margin: 30px 20px;
+        margin: 20px 20px;
     }
 
     .logo-name .name {
         display: flex;
         margin-left: 2rem;
-        font-size: 20px;
+        font-size: 23px;
         color: #fff;
-        width: 30rem;
+        width: 18rem;
         text-align: left;
-        margin-top: 5rem;
+        margin-top: 1rem;
     }
 
     .menu-form {
         display: flex;
-        justify-content: left;
+        justify-content: left; 
+        width: 100vw;
+
     }
 
 
@@ -402,9 +407,10 @@ input:checked~label .hamburguer:after {
     }
     .livros .livros-da-semana{
         padding-left: 38rem;
-        padding-right:5rem;
+        padding-right:10rem;
         overflow:auto;
         margin-bottom: 10rem;
+      
     }
   
     .livros img{
