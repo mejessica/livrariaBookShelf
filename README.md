@@ -1,4 +1,4 @@
-# Livraria Book Shell
+# Livraria Book Shelf
  :construction: Projeto em construção :construction: <br>
 Decidi refatorar com o conhecimento que adquiri até aqui um projeto que já havia feito anteriormente
 
