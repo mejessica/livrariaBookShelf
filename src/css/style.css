@@ -303,7 +303,7 @@ input:checked~label .hamburguer:after {
     .menu-form {
         display: flex;
         justify-content: left;
-        width: 23rem;
+        width: 19rem;
     }
 
 
@@ -312,6 +312,7 @@ input:checked~label .hamburguer:after {
         top: 15px;
         right: 0;
         width: 18rem;
+        
     }
 
     .menu-form nav ul li {
@@ -333,6 +334,7 @@ input:checked~label .hamburguer:after {
         margin: 50px 5px 5px 5px;
         position: relative;
         left: -20px;
+        
 
     }
 
@@ -358,9 +360,9 @@ input:checked~label .hamburguer:after {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-right: 7rem;
+        margin-right: 2rem;
         height: 50%;
-        width: 140%;
+        width: 180%;
         margin-top: 30rem;
         border-radius: 0;
     }
@@ -403,7 +405,7 @@ input:checked~label .hamburguer:after {
 
     .livros .livros-nacionais {
         margin-bottom: 20rem;
-        padding-left: 20rem;
+        padding-left: 23rem;
         padding-right: 5rem;
         overflow: auto;
         margin-bottom: 15rem;
@@ -411,7 +413,7 @@ input:checked~label .hamburguer:after {
 
     .livros .livros-da-semana {
         padding-left: 38rem;
-        padding-right: 5rem;
+        padding-right: 0.1rem;
         overflow: auto;
         margin-bottom: 10rem;
 
