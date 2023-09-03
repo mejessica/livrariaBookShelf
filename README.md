@@ -6,6 +6,9 @@ Decidi refatorar com o conhecimento que adquiri até aqui um projeto que já hav
 - HTML 
 - CSS
 
+## Atualizações futuras
+- API google book
+
 ### Como era antes
 ![livrariaantiga](https://github.com/mejessica/livrariaBookook/assets/82670472/eed39e7d-d128-4757-a9f8-a43b48478d34)
 
