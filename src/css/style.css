@@ -169,14 +169,13 @@ input:checked~label .hamburguer:after {
     
 }
 
-
-/*botao uiverse.io*/
 .cta {
     border: none;
     background: none;
     margin-left: 90px;
     margin-top: 50px;
     text-align: center;
+    cursor: pointer;
 }
 
 .cta span {
