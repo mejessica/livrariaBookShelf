@@ -25,6 +25,8 @@ Encontrei dificuldade ao fazer o botão menu do responsivo, bem como o scroll pa
 
 ### Como ficou 
 ![Livraria Bookook](https://github.com/mejessica/livrariaBookook/assets/82670472/eb75dd1f-1faf-4384-aebb-df1084456e8d)
+![booksheld](https://github.com/mejessica/livrariaBookShelf/assets/82670472/42b1d2b1-e1b1-4fe2-bc1f-7fda01361273)
+
 ### Como era antes
 ![livrariaantiga](https://github.com/mejessica/livrariaBookook/assets/82670472/eed39e7d-d128-4757-a9f8-a43b48478d34)
 
