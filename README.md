@@ -1,6 +1,6 @@
 # Livraria Book Shelf
 
-> Projeto em desenvolvimento
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 Decidi refazer um projeto do ano passado. O objetivo era fazer um site de livraria com HTML e CSS simples.  
 
